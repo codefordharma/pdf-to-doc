@@ -1,0 +1,27 @@
+{
+  "name": "pdf-to-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefordharma/pdf-to-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefordharma/pdf-to-doc/issues"
+  },
+  "homepage": "https://github.com/codefordharma/pdf-to-doc#readme",
+  "dependencies": {
+    "@google-cloud/vision": "2.1.2",
+    "dotenv": "8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.6"
+  }
+}
